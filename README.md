@@ -20,14 +20,14 @@ To run this project, you will need:
 
 ### Prerequisites
 
-Make sure you have Python 3.8+ and MongoDB installed on your machine.
+Make sure you have Python 3.8+ on your machine.
 
 ### Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/MohammadDAlil0/DCoffee
+    git clone https://github.com/MohammadDAlil0/IVI-Store
     ```
 
 2. Install dependencies:
@@ -39,7 +39,7 @@ Make sure you have Python 3.8+ and MongoDB installed on your machine.
 
 3. Set up environment variables:
 
-    Create a `.env` file in the root directory of the project and provide the following variables:
+    Create a `config.env` file in the root directory of the project and provide the following variables:
 
     ```bash
     STRIPE_API_KEY="your-stripe-key"
@@ -57,8 +57,8 @@ Make sure you have Python 3.8+ and MongoDB installed on your machine.
     uvicorn main:app --reload
     ```
 
-    The server should now be running on [http://localhost:8000](http://localhost:8000).
+    The server should now be running on [http://localhost:4000].
 
 ### API Endpoints In Postman
 
-You can use and see the APIs using Swagger via this link: [http://localhost:4000/docs](http://documenter.getpostman.com/view/27420685/2sA3e2gVcJ](https://localhost:4000/docs)
+You can use and see the APIs using Swagger via this link: [http://localhost:4000/docs]
